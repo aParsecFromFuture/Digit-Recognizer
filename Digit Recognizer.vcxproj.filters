@@ -53,7 +53,10 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="weight1.txt">
+    <Text Include="weight_digits.txt">
+      <Filter>Resource Files\weights</Filter>
+    </Text>
+    <Text Include="weight_letters.txt">
       <Filter>Resource Files\weights</Filter>
     </Text>
   </ItemGroup>

@@ -180,7 +180,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="weight1.txt" />
+    <Text Include="weight_digits.txt" />
+    <Text Include="weight_letters.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
