@@ -16,6 +16,24 @@
     <Filter Include="Resource Files\weights">
       <UniqueIdentifier>{b0a7dc3d-742c-4efa-b8e9-a793dc714f06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Layers">
+      <UniqueIdentifier>{2f9d7cf6-2ef5-4baa-8d71-02c2eeea187d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Arrays">
+      <UniqueIdentifier>{7d6a357b-50e0-4790-b455-6f566f5919af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Layers\Hidden Layers">
+      <UniqueIdentifier>{3f3cd169-e2d9-4468-a338-ac3510adaed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arrays">
+      <UniqueIdentifier>{5b458f61-d9c6-42f7-9145-8606b460ac28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Layers">
+      <UniqueIdentifier>{b623fb1a-d9a1-4dab-9a46-8014f6285774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Layers\Hidden Layers">
+      <UniqueIdentifier>{da0f38f1-165b-4708-984a-3b7c792c3334}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -32,6 +50,42 @@
     <ClInclude Include="Form1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="image_array.h">
+      <Filter>Header Files\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="label_array.h">
+      <Filter>Header Files\Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>Header Files\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>Header Files\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="batchnorm.h">
+      <Filter>Header Files\Layers\Hidden Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="conv2d.h">
+      <Filter>Header Files\Layers\Hidden Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="dense.h">
+      <Filter>Header Files\Layers\Hidden Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="maxpool.h">
+      <Filter>Header Files\Layers\Hidden Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="relu.h">
+      <Filter>Header Files\Layers\Hidden Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cnn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="preprocessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppCLR_WinformsProjekt.cpp">
@@ -45,6 +99,42 @@
     </ClCompile>
     <ClCompile Include="Form1.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image_array.cpp">
+      <Filter>Source Files\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="label_array.cpp">
+      <Filter>Source Files\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="alloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cnn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="preprocessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer.cpp">
+      <Filter>Source Files\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>Source Files\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="batchnorm.cpp">
+      <Filter>Source Files\Layers\Hidden Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="conv2d.cpp">
+      <Filter>Source Files\Layers\Hidden Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dense.cpp">
+      <Filter>Source Files\Layers\Hidden Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="maxpool.cpp">
+      <Filter>Source Files\Layers\Hidden Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="relu.cpp">
+      <Filter>Source Files\Layers\Hidden Layers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

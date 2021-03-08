@@ -1,7 +1,7 @@
 #pragma once
 #include "layer.h"
 
-class Output : public Layer{
+class Output : public Layer {
 private:
 	float* weight, * mweight, * copy_weight;
 	float* bias, * mbias;
